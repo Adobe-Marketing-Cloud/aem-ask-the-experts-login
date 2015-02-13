@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Ask the Experts - Login Pacakge"
+    jcr:primaryType="vlt:PackageDefinition"
+    sling:resourceType="cq/packaging/components/pack/definition"
+    buildCount="1"
+    cqVersion="5.6.1"
+    group="my-packages"
+    name="ate-login"
+    path="/etc/packages/my-packages/ate-login-0.0.1-SNAPSHOT"
+    version="0.0.1-SNAPSHOT">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/apps/ate-login"
+            rules="[]"/>
+
+
+        <f2
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/etc/clientlibs/ate-login"
+            rules="[]"/>
+
+    </filter>
+</jcr:root>

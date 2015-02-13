@@ -1,0 +1,37 @@
+// CSS fixes for conflicts between Boostrap and Classic UI authoring
+#CQ .x-window {
+    label {
+        display: inline;
+        max-width: inherit;
+        margin-bottom: inherit;
+        font-weight: inherit;
+    }
+    
+    label, input, button, select, textarea {
+        font-size: inherit;
+        font-weight: inherit;
+        line-height: inherit;
+        text-transform: inherit;
+        background: inherit;
+        color: inherit;
+        padding: 0px;
+        margin: inherit;
+        -webkit-border-radius: inherit;
+        -moz-border-radius: inherit;
+        border-radius: inherit;
+    }
+
+    legend {
+        margin-bottom: 0px;
+        border-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    fieldset {
+        min-width: 95%;
+    }
+}
+
+img[src^="/libs/cq/linkchecker/resources"] {
+   width: inherit;
+}

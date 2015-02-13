@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/ate-login"/>
+    <filter root="/etc/clientlibs/ate-login"/>
+    <filter root="/etc/designs/ate-login"/>
+
+</workspaceFilter>
