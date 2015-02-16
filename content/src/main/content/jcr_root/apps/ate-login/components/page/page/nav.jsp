@@ -1,6 +1,7 @@
 <%@page import="com.day.cq.wcm.api.PageFilter,
                 java.util.Iterator"%>
 <%@include file="/libs/foundation/global.jsp"%>
+<%@taglib prefix="personalization" uri="http://www.day.com/taglibs/cq/personalization/1.0" %>
 <%
 // obtain the site's home page, assume that this is the first level page under /content
 Page homePage = currentPage.getAbsoluteParent(1);
@@ -28,6 +29,11 @@ pageContext.setAttribute("navPages", navPages);
                 </c:forEach>
             </ul>
             <ul class="nav navbar-nav navbar-right">
+                <li class="cq-cc-profile-not-anonymous">
+                    <a href="#">
+                        <personalization:contextProfileProperty propertyName="givenName" prefix="Hi " suffix="!" store="profile"/>
+                    </a>
+                </li>
                 <li>
                     <a class="cq-cc-profile-anonymous" href="${homePage.path}/login.html">Login</a>
                     <a class="cq-cc-profile-not-anonymous logout-link" href="/system/sling/logout?resource=${homePage.path}.html">Logout</a>
