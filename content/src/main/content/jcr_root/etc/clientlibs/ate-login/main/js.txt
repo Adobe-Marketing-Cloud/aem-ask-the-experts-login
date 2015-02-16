@@ -1,2 +1,3 @@
 #base=js
 bootstrap.js
+cc-integration.js
