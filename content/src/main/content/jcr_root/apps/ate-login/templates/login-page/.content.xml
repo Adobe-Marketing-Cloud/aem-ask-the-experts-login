@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root 
+    xmlns:sling="http://sling.apache.org/jcr/sling/1.0"
+    xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="ATE Security - Login Page"
+    jcr:primaryType="cq:Template"
+    jcr:title="ATE Security - Login Page"
+    allowedPaths="[/content/ate-login(/.*)?]"
+    ranking="{Long}100">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="ate-login/components/page/login-page"
+        hideInNav="{Boolean}true"/>
+</jcr:root>
