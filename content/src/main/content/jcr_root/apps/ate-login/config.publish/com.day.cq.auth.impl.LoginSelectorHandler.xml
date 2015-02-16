@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OsgiConfig"
+    auth.loginselector.defaultloginpage="/content/geometrixx/en/toolbar/account/login"
+    auth.loginselector.mappings="[/libs/granite/core/content/login:/login,/content/ate-login/login:/content/ate-login]"/>

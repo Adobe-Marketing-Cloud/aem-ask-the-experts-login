@@ -3,5 +3,5 @@
     <filter root="/apps/ate-login"/>
     <filter root="/etc/clientlibs/ate-login"/>
     <filter root="/etc/designs/ate-login"/>
-
+    <filter root="/apps/geometrixx-media/security/config.publish/com.day.cq.auth.impl.LoginSelectorHandler"/>
 </workspaceFilter>
