@@ -12,7 +12,7 @@ $("#loginModalForm").submit(function(e) {
         }, function() {
             CQ_Analytics.ProfileDataMgr.clear();
             CQ_Analytics.ProfileDataMgr.loadProfile(username);
-            $('#loginModal').modal('hide')
+            $('#loginModal').modal('hide');
         }).fail(function(jqXHR, textStatus) {
             var result = $.trim(jqXHR.responseText);
             if (result === "invalid_login") {

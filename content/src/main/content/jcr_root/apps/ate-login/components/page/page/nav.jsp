@@ -29,7 +29,7 @@ pageContext.setAttribute("navPages", navPages);
                     <div class="form-group">
                         <label for="j_password">Password</label> <input type="password" name="j_password">
                     </div>
-                    <input type="hidden" name="resource" value="${currentPage.path}"/>
+                    <input type="hidden" name="resource" value="${currentPage.path}.html"/>
                     <button type="submit">Login</button>
                 </form>
             </div>
